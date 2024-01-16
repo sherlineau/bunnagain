@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 1rem;
+}
+
+.logo {
+    grid-row: 1;
+    grid-column: 1 / -1;
+    padding: 1rem;
+    place-self: center;
+    height: 5rem ;
+}
+
+.navbar {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+.nav-item { 
+   text-align: center;
+   padding: .5rem;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    min-width: 100%;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: center;
+}
+

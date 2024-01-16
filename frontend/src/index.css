@@ -2,9 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 14px;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black
 }
