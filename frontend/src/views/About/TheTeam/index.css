@@ -1,0 +1,29 @@
+.meet-the-team {
+}
+
+.profile-img {
+    max-height: 15rem;
+    width: 100%;
+}
+
+.profile-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.meet-the-team h2 {
+    font-size: 1.75rem;
+    margin: .5rem 0;
+}
+
+.meet-the-team h3 {
+    font-size: 1rem;
+}
+
+.meet-the-team p {
+    text-align: justify;
+}
+
+.card {
+    margin: 1rem;
+}
