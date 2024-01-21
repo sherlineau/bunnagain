@@ -12,6 +12,7 @@ import FAQ from './views/About/FAQ'
 import Adopt from './views/Adopt'
 import Adoptable from './components/Adoptable'
 import Application from './components/Application'
+import Learn from './components/Learn'
 
 import Admissions from './views/Admissions'
 import Contact from './views/Contact'
@@ -45,6 +46,7 @@ function App() {
         <Route path='/adopt' element={<Adopt/>}/>
         <Route path='/rabbits' element={<Adoptable/>}/>
         <Route path='/application' element={<Application/>}/>
+        <Route path='/learn-before-you-leap' element={<Learn/>}/>
 
         <Route path='/rehome' element={<Admissions/>}/>
         <Route path='/get-involved' element={<GetInvolved/>}/>
