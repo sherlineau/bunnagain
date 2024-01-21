@@ -1,0 +1,43 @@
+.footer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.donate {
+    background-color: var(--clr-background);
+    color: var(--clr-text);
+    border: none;
+    padding: .75rem 1rem;
+}
+
+.donate:hover {
+    background-color: var(--clr-accent);
+    transition: background-color var(--transition);
+
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-icons {
+    font-size: 1.75rem ;
+    margin: .25rem;
+}
+
+.social-icons svg {
+    color: var(--clr-background);
+}
+
+.social-icons svg:hover {
+    color: var(--clr-accent);
+    transition: color var(--transition);
+}
+
+.footer a {
+    color: black;
+}
