@@ -1,13 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
     font-size: 14px;
-
+    line-height: 1.55rem;
+    
     --clr-background: #2F4858;
     --clr-text: #DEDAAF;
     --clr-accent: #7AA38F;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 
 .container {
     width: 90%;
