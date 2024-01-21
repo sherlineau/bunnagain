@@ -3,8 +3,8 @@ import "./index.css";
 const index = () => {
   return (
     <section className="about">
+      <h1 className="header">Our Story</h1>
       <div className="container">
-        <h1>Our Story</h1>
         <p>
           Under the compassionate leadership of President Donna Rome, our
           journey in rescuing rabbits began in 2012, culminating in the
@@ -23,18 +23,18 @@ const index = () => {
         </p>
         <p>
           As part of our commitment to responsible rabbit ownership, Ms. Rome
-          has instituted a unique &quot;Learn Before You Leap&quot; program. This
-          initiative allows prospective owners to explore rabbit ownership
+          has instituted a unique &quot;Learn Before You Leap&quot; program.
+          This initiative allows prospective owners to explore rabbit ownership
           before formal commitment and facilitates exchanges to ensure optimal
           placements. Beyond rescue efforts, Ms. Rome, who also serves as a
           staff member at a local elementary school, has introduced innovative
-          programs like the &quot;bunny box&quot; in the cafeteria, encouraging students
-          to donate vegetables that would otherwise go to waste. Additionally,
-          the school-wide incentive program, &quot;Breakfast with the Bunnies,&quot;
-          exemplifies our holistic approach to fostering compassion and
-          responsibility in the community. Join us in making a difference in the
-          lives of these adorable creatures and promoting a culture of informed
-          and caring rabbit ownership.
+          programs like the &quot;bunny box&quot; in the cafeteria, encouraging
+          students to donate vegetables that would otherwise go to waste.
+          Additionally, the school-wide incentive program, &quot;Breakfast with
+          the Bunnies,&quot; exemplifies our holistic approach to fostering
+          compassion and responsibility in the community. Join us in making a
+          difference in the lives of these adorable creatures and promoting a
+          culture of informed and caring rabbit ownership.
         </p>
         <p>
           BunnAgain received recognition as a 501(c)(3) non-profit in July 2018.

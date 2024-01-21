@@ -5,6 +5,7 @@
     --clr-background: #2F4858;
     --clr-text: #DEDAAF;
     --clr-accent: #7AA38F;
+    --clr-accent-dark: #568581;
 
     --transition: 300ms linear;
 }
@@ -46,4 +47,11 @@ h1 {
 p {
     font-size: .9rem;
     margin: .25rem 0;
+}
+
+.header {
+    padding: 3rem;
+    background-color: var(--clr-accent-dark);
+    color: var(--clr-text);
+    text-align: center;
 }
