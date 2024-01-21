@@ -30,7 +30,7 @@
 
 .nav-item:hover {
     background-color: var(--clr-accent);
-    transition: background-color 300ms linear;
+    transition: background-color var(--transition);
 }
 
 .nav-item a {
@@ -52,7 +52,6 @@
     left: 0;
     z-index: 1;
     min-width: 100%;
-    transition:  300ms linear;
 }
 
 .dropdown:hover .dropdown-content{

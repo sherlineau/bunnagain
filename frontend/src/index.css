@@ -5,6 +5,8 @@
     --clr-background: #2F4858;
     --clr-text: #DEDAAF;
     --clr-accent: #7AA38F;
+
+    --transition: 300ms linear;
 }
 
 #root {
