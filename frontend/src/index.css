@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 14px;
+
+    --clr-background: #2F4858;
+    --clr-text: #DEDAAF;
+    --clr-accent: #7AA38F;
 }
 
 .container {
@@ -12,5 +16,4 @@
 
 a {
     text-decoration: none;
-    color: black
 }
