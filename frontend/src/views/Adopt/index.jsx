@@ -2,7 +2,7 @@ import './index.css'
 
 const index = () => {
   return (
-    <div>index</div>
+    <section>adopt a rabbit</section>
   )
 }
 

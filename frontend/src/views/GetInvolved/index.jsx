@@ -2,7 +2,7 @@ import './index.css'
 
 const index = () => {
   return (
-    <div>index</div>
+    <section>get involved / foster</section>
   )
 }
 
