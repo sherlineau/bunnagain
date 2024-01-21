@@ -5,37 +5,27 @@ import logo from '../../assets/placeholder.webp'
 const index = () => {
   return (
       <div className="container">
-        <img src={logo} alt="" className="logo"/>
+        <Link to="/" className="logo">
+          <img src={logo} alt="" />
+        </Link>
         <nav className="navbar">
-          <div className="nav-item dropdown">
+
+          <div className="dropdown">
             About
             <div className="dropdown-content">
-              <Link to="/about-bunnagain" className="dropdown-item">Our Story</Link>
-              <Link to="/meet-the-team" className="dropdown-item">Meet the Team</Link>
-              <Link to="/faq" className="dropdown-item">FAQ</Link>
+              <Link to="/about-bunnagain" className="dropdown-item nav-item">Our Story</Link>
+              <Link to="/meet-the-team" className="dropdown-item nav-item">Meet the Team</Link>
+              <Link to="/faq" className="dropdown-item nav-item">FAQ</Link>
             </div>
           </div>
-          <div className="nav-item">
-            <Link to="/adopt">Adopt</Link>
-          </div>
-          <div className="nav-item">
-            <Link to="/admissions">Admissions</Link>
-          </div>
-          <div className="nav-item">
-            <Link to="/get-involved">Get Involved</Link>
-          </div>
-          <div className="nav-item">
-            <Link to="/donate">Donate</Link>
-          </div>
-          <div className="nav-item">
-            <Link to="/news">News</Link>
-          </div>
-          <div className="nav-item">
-            <Link to="/resources">Resources</Link>
-          </div>
-          <div className="nav-item">
-            <Link to="/contact">Contact Us</Link>
-          </div>
+
+            <Link to="/adopt" className="nav-item">Adopt</Link>
+            <Link to="/admissions" className="nav-item">Admissions</Link>
+            <Link to="/get-involved" className="nav-item">Get Involved</Link>
+            <Link to="/donate" className="nav-item">Donate</Link>
+            <Link to="/news" className="nav-item">News</Link>
+            <Link to="/resources" className="nav-item">Resources</Link>
+            <Link to="/contact" className="nav-item">Contact Us</Link>
         </nav>
       </div>
   )
