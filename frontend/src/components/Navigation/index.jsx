@@ -20,7 +20,7 @@ const index = () => {
           </div>
 
             <Link to="/adopt" className="nav-item">Adopt</Link>
-            <Link to="/admissions" className="nav-item">Admissions</Link>
+            <Link to="/rehome" className="nav-item">Admissions</Link>
             <Link to="/get-involved" className="nav-item">Get Involved</Link>
             <Link to="/donate" className="nav-item">Donate</Link>
             <Link to="/news" className="nav-item">News</Link>
