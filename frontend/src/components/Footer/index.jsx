@@ -3,7 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const index = () => {
   return (
-    <div className="footer">
+    <div className="footer container">
       <button className="donate">Donate</button>
       <div className="socials">
         <a href="https://www.facebook.com/BunnAgain/" target="__blank" className="social-icons"><FaFacebook/></a>

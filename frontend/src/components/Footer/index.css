@@ -1,8 +1,5 @@
 .footer {
-    width: 50%;
-    margin: auto;
     text-align: center;
-    padding: 1rem 0;
 }
 
 .donate {
@@ -10,6 +7,10 @@
     color: var(--clr-text);
     border: none;
     padding: .75rem 1rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: .5rem;
+    border-radius: .25rem;
 }
 
 .donate:hover {
