@@ -1,10 +1,17 @@
 :root {
-    font-size: 14px;
-    line-height: 1.55rem;
+    font-size: 16px;
+    line-height: 1.25rem;
     
     --clr-background: #2F4858;
     --clr-text: #DEDAAF;
     --clr-accent: #7AA38F;
+}
+
+#root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 * {
@@ -14,12 +21,29 @@
 
 }
 
+section {
+    flex: 1;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
 
 .container {
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 a {
     text-decoration: none;
+    font-size: .9rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: .9rem;
+    margin: .25rem 0;
 }
