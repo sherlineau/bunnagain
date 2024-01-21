@@ -26,8 +26,6 @@
 section {
     flex: 1;
     height: auto;
-    display: flex;
-    margin: auto;
 }
 
 .container {
