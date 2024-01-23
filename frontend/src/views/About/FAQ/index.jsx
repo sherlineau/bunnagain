@@ -2,7 +2,10 @@ import './index.css'
 
 const index = () => {
   return (
-    <section>faq</section>
+    <section>
+      <h1 className="header">Frequently Asked Questions</h1>
+      <div className="container"></div>
+    </section>
   )
 }
 
