@@ -1,0 +1,18 @@
+[
+    {
+        "question": "How is a rabbit different from a cat or dog?",
+        "answer": "Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with proejcts in HTML, CSS, and JavaScript.  It's suitable for all levels and ideal for portfolio building."
+    },
+    {
+        "question":"Can rabbits be litter-trained?",
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione quod obcaecati deleniti placeat? Quod nam voluptatibus possimus aperiam adipisci quasi, fugiat repellat fugit, eum quae nemo ab, labore dignissimos?"
+    },
+    {
+        "question":"What are the basics of a good house rabbit diet?",
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione quod obcaecati deleniti placeat? Quod nam voluptatibus possimus aperiam adipisci quasi, fugiat repellat fugit, eum quae nemo ab, labore dignissimos?"
+    },
+    {
+        "question":"What do I need to do to bunny-proof an area?",
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione quod obcaecati deleniti placeat? Quod nam voluptatibus possimus aperiam adipisci quasi, fugiat repellat fugit, eum quae nemo ab, labore dignissimos?"
+    }
+]
