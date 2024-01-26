@@ -56,3 +56,11 @@ p {
     color: var(--clr-text);
     text-align: center;
 }
+
+.row {
+    display: flex
+}
+
+.space-between {
+    justify-content: space-between;
+}

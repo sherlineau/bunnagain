@@ -19,7 +19,7 @@ const index = () => {
   })
 
   return (
-    <section>
+    <section className='faq'>
       <h1 className="header">Frequently Asked Questions</h1>
       <div className="container">
         {
