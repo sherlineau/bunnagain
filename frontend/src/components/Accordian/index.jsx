@@ -11,9 +11,9 @@ const index = (data) => {
 
   return (
     <div className='accordian'>
-        <div onClick={(e)=> setExpanded(!expanded)}className="row space-between accordian-header">
+        <div onClick={(e)=> setExpanded(!expanded)}className="row space-between">
             <h4>{question}</h4>
-            {expanded ? <FaMinus /> : <FaPlus />}
+            {expanded ? <FaMinus className="icon" /> : <FaPlus className="icon"/>}
         </div> 
             
         <div className="content" style={expanded ? {display:"block"}:{display:"none"}}>
