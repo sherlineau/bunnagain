@@ -1,7 +1,32 @@
-.accordian-header {
-
-}
-
 .accordian h4 {
     margin-bottom: .25rem;
+    width: 90%;
+}
+
+.icon {
+    color: var(--clr-accent-dark);
+}
+
+.accordian .row {
+    margin: .5rem;
+}
+
+.content {
+    width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+@media screen and (min-width: 600px){
+    .accordian {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .accordian {
+        width: 60%;
+        margin: 0 auto;
+    }
 }

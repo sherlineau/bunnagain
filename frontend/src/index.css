@@ -45,8 +45,12 @@ h1 {
     line-height: 1em;
 }
 
+h4 {
+    font-size: 1.25rem;
+}
+
 p {
-    font-size: .9rem;
+    font-size: 1.125rem;
     margin: .25rem 0;
 }
 
@@ -58,7 +62,8 @@ p {
 }
 
 .row {
-    display: flex
+    display: flex;
+    align-items: center;
 }
 
 .space-between {
