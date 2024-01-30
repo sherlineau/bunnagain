@@ -11,18 +11,11 @@ const index = (data) => {
 
   return (
     <div className='accordian'>
-            {
-                expanded ? 
-                    <div onClick={(e)=> setExpanded(false)} className="row space-between accordian-header">
-                        <h4>{question}</h4>
-                        <FaMinus onClick={(e)=> setExpanded(false)}/>
-                    </div> 
-                    :
-                    <div onClick={(e)=> setExpanded(true)} className="row space-between accordian-header"> 
-                        <h4>{question}</h4>
-                        <FaPlus onClick={(e)=> setExpanded(false)}/>
-                    </div>
-            }
+        <div onClick={(e)=> setExpanded(!expanded)}className="row space-between accordian-header">
+            <h4>{question}</h4>
+            {expanded ? <FaMinus /> : <FaPlus />}
+        </div> 
+            
         <div className="content" style={expanded ? {display:"block"}:{display:"none"}}>
             <p>{answer}</p>
         </div>
