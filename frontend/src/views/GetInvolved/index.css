@@ -1,0 +1,29 @@
+
+
+@media screen and (min-width: 600px){
+
+.involved .container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1rem;
+}
+
+.involved img {
+    grid-column: span 2;
+    height: 100%;
+}
+
+.grid-item {
+    grid-column: span 4;
+    height: auto;
+}
+
+.involved img:nth-of-type(odd) {
+    grid-column: span 2/-1;
+    grid-row: 1/1;
+}
+
+.involved .grid-item:nth-of-type(odd) {
+    grid-column: span 4;
+    grid-row: 1/1;
+}}
