@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
-import './index.css'
+import './Index.css'
 
 
-const index = (data) => {
+const Index = (data) => {
   // destructure
   const { question, answer}  = data.data
   const [expanded, setExpanded] = useState(false)
@@ -11,16 +11,19 @@ const index = (data) => {
 
   return (
     <div className='accordian'>
-        <div onClick={(e)=> setExpanded(!expanded)}className="row space-between">
+        <div onClick={(e)=> setExpanded(!expanded)} className="row space-between">
             <h4>{question}</h4>
             {expanded ? <FaMinus className="icon" /> : <FaPlus className="icon"/>}
         </div> 
             
-        <div className="content" style={expanded ? {display:"block"}:{display:"none"}}>
-            <p>{answer}</p>
+        <div className={`content ${expanded ? "open": "close"}`}>
+          {answer}
         </div>
+
+        <div className="line"></div>
     </div>
   )
 }
 
-export default index
+export default Index
+
