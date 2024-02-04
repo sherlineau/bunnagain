@@ -1,0 +1,26 @@
+.learn {
+    text-align: center;
+}
+
+.learn .container {
+    margin-bottom: 1rem;
+}
+
+.learn ul {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.learn li {
+    text-align: justify;
+    padding: .25rem
+}
+
+
+@media screen and (min-width: 600px){
+    .learn .button {
+        width: 60%;
+        padding: 1rem;
+        font-size: 1.25rem;
+    }
+}
