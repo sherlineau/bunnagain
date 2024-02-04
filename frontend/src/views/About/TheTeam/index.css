@@ -28,3 +28,11 @@
 .card {
     margin: 1rem;
 }
+
+@media screen and (min-width: 600px){
+    .card {
+        display: grid;
+        grid-template-columns: 1.5fr 2fr;
+        gap: 2rem;
+    }
+}
