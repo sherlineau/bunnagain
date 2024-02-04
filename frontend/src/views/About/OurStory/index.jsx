@@ -1,9 +1,11 @@
 import "./index.css";
+import Header from '../../../components/Header'
+
 
 const index = () => {
   return (
     <section className="about">
-      <h1 className="header">Our Story</h1>
+      <Header title="Our Story"/>
       <div className="container">
         <p>
           Under the compassionate leadership of President Donna Rome, our

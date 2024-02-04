@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import "./index.css";
 import placeholder from "../../assets/images/placeholder-image.webp";
+import Header from '../../components/Header'
 
 const index = () => {
   return (
     <section className="adopt">
-      <h1 className="header">Adopt a Rabbit</h1>
+      <Header title="Adopt a Rabbit"/>
       <div className="container">
         <img src={placeholder} alt="" className="grid-item" />
 

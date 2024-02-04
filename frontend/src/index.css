@@ -58,13 +58,6 @@ img {
     object-fit: cover;
 }
 
-.header {
-    padding: 2rem;
-    background-color: var(--clr-accent-dark);
-    color: var(--clr-text);
-    text-align: center;
-}
-
 .row {
     display: flex;
     align-items: center;

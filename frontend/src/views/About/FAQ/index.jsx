@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import Accordian from '../../../components/Accordian'
+import Header from '../../../components/Header'
+
 import './index.css'
 
 const index = () => {
@@ -20,7 +22,7 @@ const index = () => {
 
   return (
     <section className='faq'>
-      <h1 className="header">Frequently Asked Questions</h1>
+      <Header title="Frequently Asked Questions"/>
       <div className="container">
         {
           data.map((i,index) => {return <Accordian data={i} key={index}/>})

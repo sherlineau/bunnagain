@@ -1,4 +1,5 @@
 import "./index.css";
+import Header from '../../../components/Header'
 import placeholder from '../../../assets/images/placeholder-image.webp'
 
 const data = [
@@ -21,7 +22,7 @@ const data = [
 const index = () => {
   return (
     <section className="meet-the-team">
-      <h1 className="header">Meet the Team</h1>
+      <Header title="Meet the Team"/>
       <div className="container">
         {data.map((item, index) => {
           return (
