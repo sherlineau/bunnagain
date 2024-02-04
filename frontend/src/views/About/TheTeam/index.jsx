@@ -29,11 +29,13 @@ const index = () => {
               <div className="profile-img">
                 <img src={`${item.img}`} alt="" />
               </div>
-              <h2>{item.name}</h2>
-              <h3>{item.position}</h3>
-              <p>
-                {item.desc}
-              </p>
+              <div className="card-content">
+                <h2>{item.name}</h2>
+                <h3>{item.position}</h3>
+                <p>
+                  {item.desc}
+                </p>
+              </div>
             </div>
           );
         })}
