@@ -1,23 +1,24 @@
-.meet-the-team {
-}
-
 .profile-img {
     max-height: 15rem;
     width: 100%;
 }
 
 .profile-img img{
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
 .meet-the-team h2 {
     font-size: 1.75rem;
+    color: var(--clr-accent-dark);
     margin: .5rem 0;
 }
 
 .meet-the-team h3 {
-    font-size: 1rem;
+    font-size: 1.125rem;
+    color: var(--clr-accent);
+    padding-left: .6rem;
 }
 
 .meet-the-team p {
