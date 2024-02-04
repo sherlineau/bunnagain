@@ -24,17 +24,17 @@ const index = () => {
 
         <div className="options">
           <img src={placeholder} alt="" />
-          <button className="button">Available Rabbits</button>
+          <Link to="/adoptable-rabbits" className="button">Available Rabbits</Link>
         </div>
 
         <div className="options">
           <img src={placeholder} alt="" />
-          <button className="button">Learn Before You Leap</button>
+          <Link to="/learn-before-you-leap" className="button">Learn Before You Leap</Link>
         </div>
 
         <div className="options">
           <img src={placeholder} alt="" />
-          <button className="button">Application</button>
+          <Link to="/adoption-application" className="button">Application</Link>
         </div>
       </div>
     </section>
