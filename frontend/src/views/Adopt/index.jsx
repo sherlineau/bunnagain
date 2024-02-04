@@ -2,15 +2,16 @@ import { Link } from "react-router-dom";
 import "./index.css";
 import placeholder from "../../assets/images/placeholder-image.webp";
 import Header from '../../components/Header'
+import Button from '../../components/Button'
 
 const index = () => {
   return (
     <section className="adopt">
       <Header title="Adopt a Rabbit"/>
       <div className="container">
-        <img src={placeholder} alt="" className="grid-item" />
+        <img src={placeholder} alt="" className="adopt-img grid-item" />
 
-        <div className="policies grid-item">
+        <div className="policies">
           <h2>Our Policies</h2>
 
           <p>BunnAgain adheres to these general polices to  ensure the welfare of our rabbits to the best of our ability, even after they have left our care. It is due to our deep commitment in developing responsible and informed caretakers that we must occasionally deny adoption or foster applications.</p>
@@ -23,19 +24,19 @@ const index = () => {
           </ul>
         </div>
 
-        <div className="options">
+        <div className="options grid-item">
           <img src={placeholder} alt="" />
-          <Link to="/adoptable-rabbits" className="button">Available Rabbits</Link>
+          <Link to="/adoptable-rabbits"><Button text="Available Rabbits"/></Link>
         </div>
 
-        <div className="options">
+        <div className="options grid-item">
           <img src={placeholder} alt="" />
-          <Link to="/learn-before-you-leap" className="button">Learn Before You Leap</Link>
+          <Link to="/learn-before-you-leap"><Button text="Learn Before You Leap"/></Link>
         </div>
 
-        <div className="options">
-          <img src={placeholder} alt="" />
-          <Link to="/adoption-application" className="button">Application</Link>
+        <div className="options grid-item">
+          <img src={placeholder} alt=""/>
+          <Link to="/adoption-application"><Button text="Application"/></Link>
         </div>
       </div>
     </section>
