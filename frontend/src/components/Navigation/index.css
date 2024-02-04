@@ -1,4 +1,6 @@
-.container {
+.nav-container {
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-template-rows: auto auto;
     padding: 1rem;

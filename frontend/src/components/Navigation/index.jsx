@@ -4,7 +4,7 @@ import logo from '../../assets/placeholder.webp'
 
 const index = () => {
   return (
-      <div className="container">
+      <div className="nav-container">
         <Link to="/" className="logo">
           <img src={logo} alt="" />
         </Link>
