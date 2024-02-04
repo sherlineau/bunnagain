@@ -44,8 +44,8 @@ function App() {
 
         {/* paths for adoption */}
         <Route path='/adopt' element={<Adopt/>}/>
-        <Route path='/rabbits' element={<Adoptable/>}/>
-        <Route path='/application' element={<Application/>}/>
+        <Route path='/adoptable-rabbits' element={<Adoptable/>}/>
+        <Route path='/adoption-application' element={<Application/>}/>
         <Route path='/learn-before-you-leap' element={<Learn/>}/>
 
         <Route path='/rehome' element={<Admissions/>}/>
