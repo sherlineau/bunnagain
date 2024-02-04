@@ -1,22 +1,6 @@
 .footer {
+    margin-top: 2rem;
     text-align: center;
-}
-
-.donate {
-    background-color: var(--clr-background);
-    color: var(--clr-text);
-    border: none;
-    padding: .75rem 1rem;
-    width: 70%;
-    margin: auto;
-    margin-bottom: .5rem;
-    border-radius: .25rem;
-}
-
-.donate:hover {
-    background-color: var(--clr-accent);
-    transition: background-color var(--transition);
-
 }
 
 .socials {

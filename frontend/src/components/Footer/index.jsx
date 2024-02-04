@@ -1,10 +1,11 @@
 import "./index.css";
 import { FaFacebook } from "react-icons/fa";
+import Button from '../Button'
 
 const index = () => {
   return (
     <div className="footer container">
-      <button className="donate">Donate</button>
+      <Button text="Donate" />
       <div className="socials">
         <a href="https://www.facebook.com/BunnAgain/" target="__blank" className="social-icons"><FaFacebook/></a>
         {/* <a href="">svg</a>

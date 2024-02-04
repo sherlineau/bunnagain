@@ -1,0 +1,17 @@
+
+.button {
+    background-color: var(--clr-background);
+    color: var(--clr-text);
+    border: none;
+    padding: .75rem 1rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: .5rem;
+    border-radius: .25rem;
+}
+
+.button:hover {
+    background-color: var(--clr-accent);
+    transition: background-color var(--transition);
+
+}
