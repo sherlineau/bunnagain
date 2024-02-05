@@ -4,22 +4,22 @@
 
 .involved .container {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(7,1fr);
     gap: 1rem;
 }
 
 .involved img {
-    grid-column: span 2;
+    grid-column: span 3;
     height: 100%;
 }
 
-.grid-item {
+.involved .grid-item {
     grid-column: span 4;
     height: auto;
 }
 
 .involved img:nth-of-type(odd) {
-    grid-column: span 2/-1;
+    grid-column: span 3/-1;
     grid-row: 1/1;
 }
 
