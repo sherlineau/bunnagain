@@ -8,8 +8,8 @@
     - [ ] adoptable rabbits
     - [x] learn before you leap info
     - [ ] application
-- [ ] Admissions
-- [ ] Get Involved -> fostering
+- [x] Admissions
+- [x] Get Involved -> fostering
 - [ ] Donate
 - [ ] News ??
 - [ ] Resources
