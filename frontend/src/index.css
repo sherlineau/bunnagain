@@ -27,6 +27,7 @@
 section {
     flex: 1;
     height: auto;
+    margin-bottom: 2rem;
 }
 
 .container {
