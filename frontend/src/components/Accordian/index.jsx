@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
-import './Index.css'
+import './index.css'
 
 
 const Index = (data) => {
