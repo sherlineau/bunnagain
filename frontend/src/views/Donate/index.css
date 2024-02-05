@@ -1,0 +1,23 @@
+@media screen and (min-width: 600px){
+
+    .donate .container {
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(6,1fr);
+        gap: 1rem;
+    }
+
+    p.grid-item{
+        grid-column: span 6;
+        height: auto;
+    }
+    
+    .grid-item {
+        grid-column: span 2;
+    }
+
+    .options .button{ 
+        position: relative;
+        bottom: 20%;
+}
+}
