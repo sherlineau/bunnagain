@@ -18,8 +18,6 @@ import Admissions from './views/Admissions'
 import Contact from './views/Contact'
 import Donate from './views/Donate'
 import GetInvolved from './views/GetInvolved'
-import News from './views/News'
-
 import Resources from './views/Resources'
 import GeneralCare from './components/GeneralCare'
 import MedicalAssistance from './components/MedicalAssistance'
@@ -51,7 +49,6 @@ function App() {
         <Route path='/rehome' element={<Admissions/>}/>
         <Route path='/get-involved' element={<GetInvolved/>}/>
         <Route path='/donate' element={<Donate/>}/>
-        <Route path='/news' element={<News/>}/>
         <Route path='/contact' element={<Contact/>}/>
 
         {/* paths for reources */}

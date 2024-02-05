@@ -23,7 +23,6 @@ const index = () => {
             <Link to="/rehome" className="nav-item">Admissions</Link>
             <Link to="/get-involved" className="nav-item">Get Involved</Link>
             <Link to="/donate" className="nav-item">Donate</Link>
-            <Link to="/news" className="nav-item">News</Link>
             <Link to="/resources" className="nav-item">Resources</Link>
             <Link to="/contact" className="nav-item">Contact Us</Link>
         </nav>
