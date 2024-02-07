@@ -21,6 +21,7 @@ const index = () => {
             <li>Rabbits are to be kept indoor or under <span className="emphasis">close supervision</span> in an outdoor exercise pen</li>
             <li>Any rabbit fostered, adopted or trial run may be returned at any time</li>
             <li>Swapped rabbits must be in acceptable condition in relation to an acceptable home environment</li>
+            <li>Bonded pairs must be adopted together</li>
           </ul>
         </div>
 
