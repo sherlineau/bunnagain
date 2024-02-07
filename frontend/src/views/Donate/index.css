@@ -1,0 +1,22 @@
+
+@media screen and (min-width: 600px){
+
+    .donate .container {
+        display: grid;
+        height: 100%;
+        justify-items: center;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+
+    .span-width {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .donate .container img {
+        width: 15rem;
+    }
+
+}
+
