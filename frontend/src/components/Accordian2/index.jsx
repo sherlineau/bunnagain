@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
-import './index.css'
+import '../Accordian/index.css'
 
 
 const Index = (props) => {
