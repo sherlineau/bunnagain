@@ -10,7 +10,6 @@
     - [ ] application
 - [x] Admissions
 - [x] Get Involved -> fostering
-- [ ] Donate
-- [ ] News ??
-- [ ] Resources
+- [x] Donate
+- [ ] Resources -> accordian made, content needs to be consolidated
 - [ ] Contact Us
