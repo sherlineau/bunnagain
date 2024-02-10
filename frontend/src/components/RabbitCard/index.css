@@ -81,4 +81,16 @@ span.bold {
 
 @media screen and (min-width: 1200px){
     .rabbit-card {
+        max-height: 100%;
+}
+
+    .carrot {
+        bottom: 12rem;
+        left: 24rem;
+    }
+
+    p.desc {
+        font-size: 1.25rem;
+
+    }
 }
