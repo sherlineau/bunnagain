@@ -49,3 +49,36 @@ span.bold {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+@media screen and (min-width:600px) {
+    .rabbit-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+        height: 35rem;
+    }
+
+    .rabbit-card div:first-child {
+        grid-column: span 1/-1;
+        grid-row: 1/1
+    }
+    
+    .rabbit-card div:nth-child(even) {
+        grid-column: span 1;
+        grid-row: 1/1
+    }
+    
+    .carrot {
+        left: 26rem;
+        bottom: 10rem;
+    }
+
+    .desc {
+        position: relative;
+        top: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .rabbit-card {
+}

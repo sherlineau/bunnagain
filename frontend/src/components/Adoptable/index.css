@@ -1,3 +1,10 @@
 .adoptable .container {
     width: 95%;
 }
+
+@media screen and (min-width: 1200px){
+    .adoptable .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
