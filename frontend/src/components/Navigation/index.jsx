@@ -1,6 +1,6 @@
 import "./index.css";
 import { Link } from 'react-router-dom'
-import logo from '../../assets/placeholder.webp'
+import logo from '../../assets/images/logo.png'
 
 const index = () => {
   return (
