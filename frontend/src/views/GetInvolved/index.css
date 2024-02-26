@@ -1,11 +1,13 @@
-
+.involved .grid-item{
+    padding: 2rem
+}
 
 @media screen and (min-width: 600px){
 
 .involved .container {
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .involved img {
