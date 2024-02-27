@@ -8,8 +8,10 @@
     border-radius: 2rem;
 }
 
-.profile {
-    position: relative;
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p.desc{
@@ -17,6 +19,10 @@ p.desc{
     text-align: center;
     font-size: 1.5rem;
     line-height: 1.5rem;
+}
+
+.profile {
+    position: relative;
 }
 
 .adoptable-img {
@@ -57,9 +63,11 @@ span.bold {
 @media screen and (min-width:600px) {
     .rabbit-card {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
         padding: 2rem;
         height: 35rem;
+        width: 90%;
+        margin: 2rem auto;
     }
 
     .rabbit-card div:first-child {
@@ -72,19 +80,29 @@ span.bold {
         grid-row: 1/1
     }
 
-    .desc {
-        position: relative;
-        top: 2.5rem;
+    .adoptable-img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .carrot {
+        width: 12rem;
+        bottom: 50%;
+        left: 4rem;
+    }
+
+    .info {
+        margin-top: 2rem;
     }
 }
 
 @media screen and (min-width: 1200px){
     .rabbit-card {
         max-height: 100%;
-}
+        width: 100%;
+    }
 
     p.desc {
         font-size: 1.25rem;
-
     }
 }

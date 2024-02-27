@@ -24,7 +24,7 @@ const index = (data) => {
             <p className="name">Ralphie</p>
             </div>
         </div>
-        <div>
+        <div className="flex">
           <p className="desc">
             Meet Ralphie, the charming rabbit who is eagerly awaiting his forever home. This lovable and sweet boy has a heart full of affection, and he adores receiving pets. Ralphie is not only gentle and affectionate but also gets along well with cats and young children, making him a delightful addition to any loving home. With his calm demeanor and friendly nature, Ralphie is sure to bring joy and warmth to the hearts of his future adopters. 
           </p>
