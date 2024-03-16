@@ -1,0 +1,13 @@
+[{
+    "name": "Ralphie",
+    "breed": "unknown",
+    "gender": "male",
+    "sn": true,
+    "age" : "1 year",
+    "weight": "10lbs.",
+    "color": "brown",
+    "litter_trained": "yes",
+    "good": "good with kids and pets",
+    "img" :"./rabbits/ralphie.jpg",
+    "desc" :"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione quod obcaecati deleniti placeat? Quod nam voluptatibus possimus aperiam adipisci quasi, fugiat repellat fugit, eum quae nemo ab, labore dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione quod obcaecati deleniti placeat? Quod nam voluptatibus possimus aperiam adipisci quasi, fugiat repellat fugit, eum quae nemo ab, labore dignissimos?"
+}]

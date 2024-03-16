@@ -1,18 +1,17 @@
 import "./index.css";
-import placeholder from '../../assets/images/placeholder-image.webp'
 import carrot from '../../assets/images/carrot.png'
 
 
 const index = (data) => {
-  const { name, gender, sn, age, weight, color, litter_trained, good } = data;
+  const { name,breed, gender, sn, age, weight, color, litter_trained, good, img, desc } = data.data;
   return (
     <div className="rabbit-card">
         <div className="profile">
-            <img src={placeholder} alt="" className="adoptable-img"/>
+            <img src={img} alt="" className="adoptable-img"/>
             <div className="info">
-                <p><span className="bold">Breed:</span>{name}</p>
+                <p><span className="bold">Breed:</span>{breed}</p>
                 <p><span className="bold">Gender:</span>{gender}</p>
-                <p><span className="bold">Spay/Neutered:</span>{sn}</p>
+                <p><span className="bold">Spay/Neutered:</span>{sn ? "yes": "no"}</p>
                 <p><span className="bold">Age:</span>{age}</p>
                 <p><span className="bold">Weight:</span>{weight}</p>
                 <p><span className="bold">Color:</span>{color}</p>
@@ -21,12 +20,12 @@ const index = (data) => {
             </div>
             <div className="carrot">
             <img src={carrot} alt="" />
-            <p className="name">Ralphie</p>
+            <p className="name">{name}</p>
             </div>
         </div>
         <div className="flex">
           <p className="desc">
-            Meet Ralphie, the charming rabbit who is eagerly awaiting his forever home. This lovable and sweet boy has a heart full of affection, and he adores receiving pets. Ralphie is not only gentle and affectionate but also gets along well with cats and young children, making him a delightful addition to any loving home. With his calm demeanor and friendly nature, Ralphie is sure to bring joy and warmth to the hearts of his future adopters. 
+            {desc}
           </p>
         </div>
     </div>
