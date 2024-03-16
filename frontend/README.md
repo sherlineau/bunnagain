@@ -6,6 +6,8 @@
 - [x]  Adoption page
     - [x] policys
     - [ ] adoptable rabbits
+        - [x] display cards for each rabbit
+        - [x] import data 
     - [x] learn before you leap info
     - [ ] application
 - [x] Admissions
