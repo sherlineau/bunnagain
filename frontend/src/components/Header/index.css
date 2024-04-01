@@ -1,6 +1,5 @@
 .header {
     padding: 2rem;
-    background-color: var(--clr-accent-dark);
-    color: var(--clr-text);
+    background-color: var(--clr-accent);
     text-align: center;
 }
