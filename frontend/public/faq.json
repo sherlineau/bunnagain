@@ -1,18 +1,14 @@
 [
     {
-        "question": "How is a rabbit different from a cat or dog?",
-        "answer": "Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with proejcts in HTML, CSS, and JavaScript.  It's suitable for all levels and ideal for portfolio building."
+        "question": "Does BunnAgain offer boarding or vet services?",
+        "answer": "No, BunnAgain does not provide boarding or veterinary services for the community. We recommend Avian & Exotic Animal Hospital of Louisiana and Azalea Lakes Veterinary Clinic for rabbit care in the southern Louisiana area."
     },
     {
-        "question":"Can rabbits be litter-trained?",
-        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione quod obcaecati deleniti placeat? Quod nam voluptatibus possimus aperiam adipisci quasi, fugiat repellat fugit, eum quae nemo ab, labore dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione quod obcaecati deleniti placeat? Quod nam voluptatibus possimus aperiam adipisci quasi, fugiat repellat fugit, eum quae nemo ab, labore dignissimos?"
+        "question":"Does BunnAgain take in animals?",
+        "answer": "We are not an open intake shelter, so you cannot bring your rabbits to our facility without approval. We rely on a network of fosters to provide temporary care for rabbits in need. If you are in a situation where you need to re-home your rabbit, please contact us. While we may not be able to take in your rabbit directly, we will be more than happy to share your situation on our social media platforms to help you find assistance."
     },
     {
-        "question":"What are the basics of a good house rabbit diet?",
-        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione quod obcaecati deleniti placeat? Quod nam voluptatibus possimus aperiam adipisci quasi, fugiat repellat fugit, eum quae nemo ab, labore dignissimos?"
-    },
-    {
-        "question":"What do I need to do to bunny-proof an area?",
-        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione quod obcaecati deleniti placeat? Quod nam voluptatibus possimus aperiam adipisci quasi, fugiat repellat fugit, eum quae nemo ab, labore dignissimos?"
+        "question":"What kind of pets does BunnAgain have?",
+        "answer": "BunnAgain primarily has rabbits of all life stages available for adoption. Our rabbits are socialized to be indoor pets only. We encourage you to review our available adoption gallery on our website and fill out an application if you are interested in adopting one of our rabbits."
     }
 ]

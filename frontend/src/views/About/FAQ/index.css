@@ -1,2 +1,4 @@
-.faq .container {
+.faq .text-container {
+    width: 80%;
+    text-align: center;
 }
