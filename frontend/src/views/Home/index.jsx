@@ -1,18 +1,65 @@
-import './index.css'
-import placeholder from "../../assets/images/placeholder-image.webp"
+import "./index.css";
+import placeholder from "../../assets/images/placeholder-image.webp";
+import amazon from "../../assets/images/amazon-logo.png";
 
 const index = () => {
   return (
     <section>
-      <div className="container">
+      <img src={placeholder} alt="" className="hero-img" />
+      <div className="container text-center">
+        <div className="hero-content">
+          <h2>Welcome to BunnAggain Rabbit Rescue and Education!</h2>
+          <p>
+            At BunnAgain, we believe that every bunny deserves a happy, healthy
+            life. Our mission is to rescue, rehabilitate, and rehome rabbits in
+            need, while also educating the community about responsible rabbit
+            care.
+          </p>
 
-      <img src={placeholder} alt="" />
-      <p> 
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem eius perspiciatis blanditiis id animi maiores, delectus possimus sequi suscipit molestiae! Qui ex numquam facilis? Quis cumque eum expedita magnam voluptatem id excepturi quisquam alias neque unde quo, dolores dolor sequi minima recusandae corporis vero provident pariatur, dolore doloribus. Esse, temporibus perspiciatis? Maiores magni tempore neque! Eius, vero a, aliquam molestias vitae assumenda cumque harum commodi veritatis illum sint. Excepturi, asperiores, ullam omnis molestias labore minima quos cum, eos beatae distinctio voluptatum. Nostrum reprehenderit harum iure sint voluptatum atque minus maiores voluptate. Aliquam nulla accusamus sequi enim in soluta nostrum, doloremque ducimus temporibus, quidem facere nemo modi qui saepe quae harum minus sit impedit nobis veniam tenetur ratione! Architecto sed corrupti doloribus vel, libero neque, nisi optio incidunt laboriosam eveniet vero iste nulla voluptate veritatis deleniti aliquid cumque mollitia? Odit a rerum deleniti voluptate dolore, eaque adipisci eius fuga ex molestias!
-      </p>
+          <p>
+            Please note that we are currently at full capacity and are not
+            accepting new bunnies. However, we are constantly in need of fosters
+            and encourage others to apply to become one. If you have found or
+            need to surrender a bunny, please reach out to us, and we will do
+            our best to assist you.
+          </p>
+
+          <p>
+            With your support, we can continue to provide love, shelter, and
+            veterinary care to these wonderful animals. Together, we can make a
+            difference in the lives of rabbits and the people who love them.
+          </p>
+
+          <p>
+            Join us in our mission to ensure that every bunny has a hoppy
+            ending!
+          </p>
+        </div>
+        <div className="row sub-content">
+          <img src={placeholder} className="sub-img" />
+          <div className="sub-text text-center">
+            <p>
+              Help support our mission to rescue, rehabilitate, and re-home
+              rabbits in need by checking out our Amazon wish list!{" "}
+            </p>
+            <p>
+              Your generous donations of supplies like food, toys, and bedding
+              directly benefit the bunnies in our care. Every contribution, no
+              matter how small, makes a big difference in their lives.
+            </p>
+            <p>Thank you for your support!</p>
+
+            <a
+              href="https://www.amazon.com/hz/wishlist/ls/302YWVLPANUT8?ref_=wl_share"
+              target="__blank"
+            >
+              <img src={amazon} alt="amazon wishlist" className="amz-button" />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default index
+export default index;

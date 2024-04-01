@@ -1,0 +1,23 @@
+.hero-img {
+  height: 24rem;
+}
+
+.sub-content {
+    height: 22rem;
+}
+
+.sub-img {
+  max-width: 70%;
+  height: 100%;
+}
+
+.sub-text {
+  width: 40%;
+  padding: 1rem;
+  background-color: var(--clr-accent);
+  height: 100%;
+}
+
+.amz-button {
+  width: 30%;
+}
