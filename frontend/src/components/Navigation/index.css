@@ -4,6 +4,8 @@
     display: grid;
     grid-template-rows: auto auto;
     padding: 1rem;
+    font-weight: 350;
+    font-size: 1.125rem;
 }
 
 .logo {
@@ -28,6 +30,7 @@
    text-align: center;
    padding: .75rem 0;
    color: var(--clr-text);
+   font-size: 1.125rem;
 }
 
 .nav-item:hover {
