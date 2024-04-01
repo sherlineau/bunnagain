@@ -45,6 +45,12 @@ section {
     padding: 2rem 0;
 }
 
+.text-container {
+    width: 65%;
+    margin: auto;
+    padding: 1.5rem;
+}
+
 .text-center {
     text-align: center;
 }
