@@ -54,6 +54,9 @@ section {
 .text-center {
     text-align: center;
 }
+.bg-accent{
+    background-color: var(--clr-accent);
+}
 
 a {
     text-decoration: none;
