@@ -37,7 +37,7 @@ const index = () => {
         </div>
         <div className="row sub-content">
           <img src={placeholder} className="sub-img" />
-          <div className="sub-text text-center">
+          <div className="text-container text-center bg-accent">
             <p>
               Help support our mission to rescue, rehabilitate, and re-home
               rabbits in need by checking out our Amazon wish list!{" "}

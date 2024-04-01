@@ -11,13 +11,6 @@
   height: 100%;
 }
 
-.sub-text {
-  width: 40%;
-  padding: 1rem;
-  background-color: var(--clr-accent);
-  height: 100%;
-}
-
 .amz-button {
   width: 30%;
 }
